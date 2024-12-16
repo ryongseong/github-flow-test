@@ -1,3 +1,4 @@
-import { count } from "./count";
+import { count, increase } from "./count";
 
-console.log(count); // 0
+increase();
+console.log(count);
